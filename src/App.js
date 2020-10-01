@@ -16,8 +16,8 @@ function App() {
       <Specs />
       <main>
         <Foto />
-      </main>
         <Btn />
+      </main>
     </div>
   );
 }
