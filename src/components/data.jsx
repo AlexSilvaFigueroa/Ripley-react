@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-
+import "../assets/css/App.css";
 
 const Data = () => {
   const [especs, setEspecs] = useState([]);
@@ -16,9 +16,11 @@ const Data = () => {
       });
   }, []);
   return (
-        <div className = "data-container">
-            
-        </div>
+    <div className="data-container">
+      <button type="button" id="btn">
+        Compralo, Ya!
+      </button>
+    </div>
   );
 };
 

@@ -47,9 +47,11 @@ const Foto = () => {
             ))}
             {<hr></hr>}
             {especs.map((price) => (
-              <li>
-                Precio oferta: {price.prices.formattedOfferPrice}
-              </li>
+              <li>Precio normal: {price.prices.formattedOfferPrice}</li>
+            ))}
+            {<hr></hr>}
+            {especs.map((price) => (
+              <li>Precio tarjeta: {price.prices.formattedCardPrice}</li>
             ))}
             {<hr></hr>}
           </ul>
