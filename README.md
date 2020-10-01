@@ -1,9 +1,9 @@
-<--El servidor no tiene habilitado Cors>
+El servidor no tiene habilitado Cors
 <------------------------------------------------------------------------------>
 
 Para visualizar los datos dentro del la direccion 
 ### 'https://ripley-react.vercel.app/'
-<------------------------------------------------------------------------------>
+
 Si no tienes los medios para habilitar Cors en el servidor de la API instalar 
 
 la siguiente extension --> 
@@ -12,7 +12,7 @@ y darle a ""ON"" dentro del icono de la extension.
 Esto habilitará las solicitudes al servidor evitando el problema de Cors
 
 
-<------------------------------------------------------------------------------>
+
 Puedes inicializar este proyecto en el directorio raíz, usando el comnado:
 
 ### `yarn start`

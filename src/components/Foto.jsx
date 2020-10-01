@@ -57,6 +57,14 @@ const Foto = () => {
           </ul>
         </div>
       </div>
+      <div>
+      { 
+        <button type="button" id="btn">
+          Compralo, Ya!
+        </button>
+      }
+      </div>
+
     </div>
   );
 };
