@@ -1,0 +1,18 @@
+.img-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+#preview {
+    display: block;
+    width: 150px;
+    margin-bottom: 25px;
+    border: 2px solid #444;
+}
+
+#preview:hover {
+    cursor: pointer;
+}
+

@@ -5,6 +5,7 @@ import './assets/css/App.css';
 
 import Header from './components/Header';
 import Specs from './components/Specs';
+import Foto from './components/Foto';
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
       <header className="App-header">
       <Header />
       </header>
-      <Specs />
+        <Specs />
+      <main>
+        <Foto />
+      </main>
     </div>
   );
 }

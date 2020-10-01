@@ -1,0 +1,19 @@
+.container {
+
+    background-color: #ccc;
+    display: flex;
+    width: 100%;
+
+}
+
+#offert {
+    font-size: 30px;
+    color: rgb(206, 27, 27);
+    list-style: square;
+}
+
+.container li {
+    align-items: flex-start;
+    font-size: 20px;
+    margin-left: 1em;
+}

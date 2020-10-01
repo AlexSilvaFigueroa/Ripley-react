@@ -12,16 +12,14 @@ const Axios = () => {
     }, [])
     return (
         <div>
-            <ul>
                 {
                     especs.map(item => (
-                        <div className="Specs-container">
+                        <div className="Img-container">
                             <h1 key = {item.uniqueID}>{item.name}</h1>    
                             <hr></hr>
                         </div>
                     ))
                 }
-            </ul>
         </div>
     )
 }
