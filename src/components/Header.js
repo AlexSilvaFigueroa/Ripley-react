@@ -5,10 +5,10 @@ class Header extends Component {
   render() {
     return (
       <header id="header">
-        <div class="center">
+        <div className="center">
           {/*LOGO*/}
-          <div class="logo">
-            <img src={logo} class="app-logo" alt="logo" />
+          <div className="logo">
+            <img src={logo} className="app-logo" alt="logo" />
           </div>
           {/*MENU*/}
           <nav id="menu">
@@ -22,7 +22,7 @@ class Header extends Component {
             </ul>
           </nav>
           {/*LIMPIEAR FLOTADOS*/}
-          <div class="clearfix"></div>
+          <div className="clearfix"></div>
         </div>
       </header>
     );
