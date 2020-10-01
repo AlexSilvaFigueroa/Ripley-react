@@ -42,7 +42,7 @@ const Foto = () => {
           <ul>
             {
                 especs.map((price) => (
-                    <li id="offert" key={price.uniqueID}>Precio oferta :{price.prices.listPrice}</li>
+                    <li id="offert" key={price.uniqueID}>Precio oferta :{price.prices.formattedOfferPrice}</li>
                 ))
             }
             {
