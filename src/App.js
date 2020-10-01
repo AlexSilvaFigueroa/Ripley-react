@@ -6,6 +6,7 @@ import "./assets/css/App.css";
 import Header from "./components/Header";
 import Specs from "./components/Specs";
 import Foto from "./components/Foto";
+import Btn from "./components/Data";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <main>
         <Foto />
       </main>
+        <Btn />
     </div>
   );
 }
