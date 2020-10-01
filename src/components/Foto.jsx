@@ -40,16 +40,18 @@ const Foto = () => {
       <div className="container">
         <div>
           <ul>
-            {
-                especs.map((price) => (
-                    <li id="offert" key={price.uniqueID}>Precio oferta :{price.prices.formattedOfferPrice}</li>
-                ))
-            }
-            {
-                especs.map((price) => (
-                    <li key={price.uniqueID}>Precio oferta:..............{price.prices.offerPrice}</li>
-                ))
-            }
+            {especs.map((price) => (
+              <li id="offert">
+                Precio oferta : {price.prices.formattedListPrice}
+              </li>
+            ))}
+            {<hr></hr>}
+            {especs.map((price) => (
+              <li>
+                Precio oferta: {price.prices.formattedOfferPrice}
+              </li>
+            ))}
+            {<hr></hr>}
           </ul>
         </div>
       </div>

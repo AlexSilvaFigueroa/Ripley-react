@@ -1,19 +1,21 @@
 .container {
-
-    background-color: #ccc;
-    display: flex;
-    width: 100%;
-
+    width: 600px;
+    height: 450px;   
+    margin-left: 50px; 
 }
 
 #offert {
     font-size: 30px;
     color: rgb(206, 27, 27);
-    list-style: square;
+}
+
+.container ul {
+    width: 600px;
+    height: 450px;
 }
 
 .container li {
-    align-items: flex-start;
+    text-align: left;
     font-size: 20px;
-    margin-left: 1em;
+    list-style: square;
 }
